@@ -1,0 +1,61 @@
+.dashboard {
+  padding: 30px;
+  background-color: #f4f4f4; /* Light background for contrast */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 1200px; /* Limiting max width for better readability */
+  margin: 20px auto; /* Centering the content */
+}
+
+h2 {
+  color: #2c3e50; /* Darker shade for headings */
+  font-family: 'Helvetica', sans-serif; /* Clean and modern font */
+  font-size: 36px;
+  text-align: center; /* Center-align heading */
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0;
+  height: 1px;
+  background: #ccc; /* Lighter line for separation */
+}
+
+p {
+  color: #34495e; /* Dark gray text for better readability */
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.6; /* Increased line height for easy reading */
+  text-align: justify; /* Justifying text for neatness */
+}
+
+a {
+  color: #3498db; /* Blue color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2980b9; /* Darker blue for hover effect */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #2980b9; /* Same blue for links in the list */
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #1c6d9f; /* Darker hover color */
+}

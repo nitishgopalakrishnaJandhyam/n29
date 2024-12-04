@@ -1,0 +1,67 @@
+.app-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.app-title h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  color: #060606;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message, .success-message {
+  text-align: center;
+  margin-top: 10px;
+  color: red; /* Error message color */
+}
+
+.success-message {
+  color: green; /* Success message color */
+}

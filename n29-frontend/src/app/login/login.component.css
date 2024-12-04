@@ -1,0 +1,71 @@
+.app-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.app-title h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #050505;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 16px;
+  color: #080808;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+
+a {
+  color: #4CAF50;
+}
+
+a:hover {
+  text-decoration: underline;
+}

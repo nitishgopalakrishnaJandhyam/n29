@@ -1,0 +1,57 @@
+.navbar {
+  background-color: #333;  /* Dark background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;  /* Align items to the right */
+  align-items: center;  /* Vertically center the items */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;  /* Align the list items to the right */
+  align-items: center;  /* Vertically center the items */
+  list-style-type: none;  /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 20px;  /* Space between links */
+}
+
+.nav-button {
+  background-color: #333;  /* Green color for links */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;  /* Remove underline */
+  border-radius: 4px;
+  text-align: center;  /* Center the text inside the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;  /* Smooth hover effect */
+}
+
+.nav-button:hover {
+  background-color: #201f1f;  /* Darker shade for hover effect */
+}
+
+.nav-button.active {
+  background-color: #5a5959;  /* Active link indicator */
+  color: white;
+}
+
+.logout-btn {
+  background-color: #ff5733;  /* Logout button color */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c13e2d;  /* Darker shade for hover effect */
+}
+
+.logout-btn:focus {
+  outline: none;
+}
